@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div className="App">
+    {/* Not passing our MovieCard Component a posterSrc prop it will use default */}
       <MovieCard title={title} genres={genresArr} />
     </div>
   );
